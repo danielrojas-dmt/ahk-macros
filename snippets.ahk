@@ -14,6 +14,8 @@
 ; ------------------------------------------------------------------------------
 ; Greek letters (for use with right ctrl key)
 
+; Lowercase
+
 >^a::  ; alpha
     Send, α
     return
@@ -112,3 +114,45 @@
 
 ; Unused letters:
 ; hjquv
+
+; Uppercase
+
+>^+g::  ; Gamma
+    Send, Γ
+    return
+
+>^+d::  ; Delta
+    Send, Δ
+    return
+
+>^+0::  ; Theta  ; unconventional
+   Send, Θ
+   return
+
+>^+l::  ; Lambda
+   Send, Λ
+   return
+
+>^+x::  ; Xi
+  Send, Ξ
+  return
+
+>^+p::  ; Pi
+   Send, Π
+   return
+
+>^+s::  ; Sigma
+  Send, Σ
+  return
+
+>^+f::  ; Phi
+  Send, Φ
+  return
+
+>^+4::  ; Psi
+  Send, Ψ
+  return
+
+>^+w::  ; Omega
+  Send, Ω
+  return
