@@ -40,8 +40,8 @@
     Send, ζ
     return
 
->^h::  ; eta 
-    Send, ζ
+>^h::  ; eta
+    Send, η
     return
 
 >^0::  ; theta  ; unconventional
