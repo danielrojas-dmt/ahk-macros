@@ -1,19 +1,19 @@
 ; ------------------------------------------------------------------------------
-; E-Mail templates (for use with right ctrl key)
+; E-Mail templates (for use with right ctrl + left alt key)
 
->^s::
+>^!s::
     Send, Sehr geehrte Damen und Herren
     return
 
->^f::
+>^!f::
     Send, Sehr geehrte Frau{Space}
     return
 
->^h::
+>^!h::
     Send, Sehr geehrter Herr{Space}
     return
 
->^a::
+>^!a::
     Send, Zum Begleichen der Rechnung wird sich meine Kollegin
     Send, {,}
     Send, {Space}{Space}
