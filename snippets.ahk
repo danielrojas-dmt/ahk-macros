@@ -12,6 +12,26 @@
     return
 
 ; ------------------------------------------------------------------------------
+; Math symbols (for use with right ctrl key)
+
+>^v::  ; square root
+    Send, √
+    return
+
+>^=::  ; approximately equal
+    Send, ≈
+    return
+
+>^2::  ; half
+    Send, ½
+    return
+
+>^8::  ; infinity
+    Send, ∞
+    return
+
+
+; ------------------------------------------------------------------------------
 ; Greek letters (for use with right ctrl key)
 
 ; Lowercase
@@ -113,7 +133,7 @@
     return
 
 ; Unused letters:
-; jquv
+; jqu
 
 ; Uppercase
 
