@@ -33,6 +33,6 @@
     return
 
 >^+`::
-    FormatTime, CurrentDateTime,, dd.MM.yyyy
+    FormatTime, CurrentDateTime,, yyyy-MM-dd_HH-mm
     SendInput %CurrentDateTime%
     return
