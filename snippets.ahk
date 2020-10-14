@@ -40,7 +40,7 @@
     Send, ζ
     return
 
->^/::  ; eta  ; (?) unconventional
+>^h::  ; eta 
     Send, ζ
     return
 
@@ -113,7 +113,7 @@
     return
 
 ; Unused letters:
-; hjquv
+; jquv
 
 ; Uppercase
 
