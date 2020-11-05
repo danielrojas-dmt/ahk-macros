@@ -22,8 +22,16 @@
     Send, ≈
     return
 
->^2::  ; half
+>^2::  ; squared
+    Send, ²
+    return
+
+>^+2::  ; half
     Send, ½
+    return
+        
+>^3::  ; cubed
+    Send, ³
     return
 
 >^8::  ; infinity
